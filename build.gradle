@@ -3,6 +3,7 @@ plugins {
 	id 'org.springframework.boot' version '3.3.5'
 	id 'io.spring.dependency-management' version '1.1.6'
 	id 'jacoco'
+	id "org.sonarqube" version "6.0.1.5171"
 }
 
 group = 'es.training'
@@ -16,6 +17,15 @@ java {
 
 jacoco {
 	toolVersion = "0.8.12"
+}
+
+sonar {
+	properties {
+		property "sonar.projectName", "Formación - SebasRodMag"
+		property "sonar.projectKey", "oriolcanades_formacion-sebasrodmag"
+		property "sonar.organization", "oriolcanades"
+		property "sonar.host.url", "https://sonarcloud.io"
+	}
 }
 
 configurations {
