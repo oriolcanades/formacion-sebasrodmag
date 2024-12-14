@@ -1,2 +1,2 @@
-# formacion-sebasrodmag
-Proyecto de formación
+# Proyecto formación de SebasRodMag
+
