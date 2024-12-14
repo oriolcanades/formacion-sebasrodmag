@@ -22,6 +22,9 @@ jobs:
           java-version: 17
           distribution: 'zulu' # Alternative distribution options are available
 
+      - name: Make Gradlew Executable
+        run: chmod +x ./gradlew
+
       - name: Cache SonarQube packages
         uses: actions/cache@v4
         with:
