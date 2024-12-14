@@ -18,3 +18,21 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=oriolcanades_formacion-sebasrodmag&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=oriolcanades_formacion-sebasrodmag)
 
 </div>
+
+
+# Run the Docker Compose stack
+
+1. Run the following command to start the Docker Compose stack:
+    ```bash
+    docker-compose up -d
+    ```
+
+2. Stop the Docker Compose stack:
+    ```bash
+    docker-compose down
+    ```
+
+3. Remove the Docker Compose volumes:
+    ```bash
+    docker-compose down -v
+    ```
